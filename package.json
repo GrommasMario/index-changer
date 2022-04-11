@@ -1,34 +1,7 @@
 {
   "name": "indexchanger",
   "version": "1.0.0",
-  "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "index.js",
   "author": "Ivan Fomenko",
-  "license": "ISC",
-  "devDependencies": {
-    "typescript": "4.6.3",
-    "ts-node": "10.7.0",
-    "jest": "27.5.1",
-    "ts-jest": "27.1.4",
-    "@types/jest": "27.4.1",
-    "tslib": "2.3.1"
-  },
-  "jest": {
-    "moduleDirectories": [
-      "node_modules",
-      "src"
-    ],
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "ts"
-    ],
-    "rootDir": "./",
-    "testRegex": ".spec.ts$",
-    "transform": {
-      "^.+\\.(t|j)s$": "ts-jest"
-    }
-  }
+  "license": "ISC"
 }

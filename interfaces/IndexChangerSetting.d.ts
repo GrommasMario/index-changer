@@ -1,4 +1,4 @@
-export interface IndexChangerSetting<T>{
+export interface IndexChangerSetting<T> {
     sort?: boolean;
     postSort?: boolean;
     normalizeOrder?: boolean;
